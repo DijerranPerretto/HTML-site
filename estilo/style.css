@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    text-align: center;
+        font-family:Beau;
+             height: 100vh;
+                box-sizing: border-box;
+                     background-color: #3F4045;
+                        color:#DDDDDD
+}
+.tituloDestaque{
+    color:#0094C6
+}
+.destaqueTexto{
+    color:#008AB8
+}
+@font-face {
+    font-family:Beau;
+    src: url(BeauRegular-0nLo.ttf);
+}
+.apresentacao{
+   padding: 5%;
+        display: flex;
+         align-items: center;
+                justify-content: space-between;
+}
+
+.apresentacaoConteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    letter-spacing: 2px;
+}
+.titulos{
+    font-size: 2.25rem;
+}
+
+.paragrafo{
+    font-size: 1.5rem;
+}
+
+.botao{
+    display: flex;
+        justify-content: space-between;
+            flex-direction: column;
+                gap: 32px;
+                    align-items: center;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #008AB8;
+    border-radius: 8px;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color:#DDDDDD
+}
+.acesseMinhasRedes{
+    font-weight: 400;
+        font-size: 1.5rem;
+}
+.link:hover{
+    background-color:#008AB8 ;
+}
+
+.rodape{
+    color: #DDDDDD;
+        background-color: #008AB8;
+            padding: 24px;
+                text-align: center;
+                    font-family:Beau;
+                        font-size: 1.5rem;
+                            font-weight: 400;
+}
+
+.cabecalhoMenuLink{
+    font-family: Beau;
+        font-size: 1.5rem;
+            font-weight: 600;
+            color:#0094C6;
+            text-decoration: none;
+            
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalhoMenu{
+    display: flex;
+        gap: 80px;
+}
